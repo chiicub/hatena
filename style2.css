@@ -1,0 +1,57 @@
+body {
+  background: #f5f5f5;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+/* 横並び */
+.compare {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* デバイス枠 */
+.device {
+  background: #fff;
+  padding: 16px;
+  border: 1px solid #ddd;
+}
+
+.device h2 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* 投稿共通 */
+.post {
+  border: 1px solid #dbdbdb;
+  margin-bottom: 24px;
+}
+
+.label {
+  font-size: 12px;
+  color: #666;
+  padding: 6px 8px;
+  margin: 0;
+}
+
+/* スマホ */
+.phone img {
+  width: 360px;
+  height: auto;
+  display: block;
+}
+
+/* PC */
+.pc img {
+  width: 600px;
+  height: auto;
+  display: block;
+}
